@@ -22,5 +22,8 @@ const source = solc.compile(note, 1);
 const bytecode = source.contracts[':Note'].bytecode;
 const interface = source.contracts[':Note'].interface;
 
-console.log(bytecode);
-console.log(interface);
+// console.log(bytecode);
+// console.log(interface);
+
+module.exports = source.contracts[':Note'];
+
