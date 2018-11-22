@@ -19,7 +19,7 @@ const { bytecode, interface } = require('./complie');
 
 const provider = new HDWalletProvider(
     // '본인 계정의 12개의 mnemonic words',
-    // " ",
+    "  ",
     // 'Infura API'
     'https://ropsten.infura.io/v3/03463b0648d145bbbe4f95a32237aeba'
 );
